@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Digital Learning Hub | Learn Today Lead Tomorrow</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo-area">
+    <img src="logo.jpg">
+    <span>Digital Learning Hub</span>
+  </div>
+  <div class="top-contact">
+    <a href="tel:6380627730">📞 6380627730</a>
+    <a href="mailto:mrlogeshwaran38@gmail.com">✉️ mrlogeshwaran38@gmail.com</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Digital Learning Hub</h1>
+    <p>Learn Today, Lead Tomorrow</p>
+    <a href="#courses" class="btn">View Courses</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <div class="about-container">
+    <div class="about-img">
+      <img src="about.jpg">
+    </div>
+    <div class="about-text">
+      <h2>About Us</h2>
+      <h4>Welcome to Digital Learning Hub</h4>
+      <p>
+        Digital Learning Hub provides quality computer and accounting education.
+        We focus on practical learning and career-oriented skills.  
+        Our mission is to help students gain confidence and professional expertise.
+      </p>
+      <a href="#contact" class="btn-outline">Learn More</a>
+    </div>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section class="courses" id="courses">
+  <h2>Our Courses</h2>
+  <p class="sub">Explore Our Popular Courses</p>
+
+  <div class="course-grid">
+
+    <div class="course-card">
+      <h3>MS Word</h3>
+      <p>Create professional documents efficiently.</p>
+      <button onclick="showContact(this)">Learn More</button>
+      <div class="learn-contact">
+        📞 <a href="tel:6380627730">6380627730</a><br>
+        ✉️ <a href="mailto:mrlogeshwaran38@gmail.com">
+        mrlogeshwaran38@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <h3>MS Excel</h3>
+      <p>Become proficient in data analysis.</p>
+      <button onclick="showContact(this)">Learn More</button>
+      <div class="learn-contact">
+        📞 <a href="tel:6380627730">6380627730</a><br>
+        ✉️ <a href="mailto:mrlogeshwaran38@gmail.com">
+        mrlogeshwaran38@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <h3>PowerPoint</h3>
+      <p>Create impactful presentations.</p>
+      <button onclick="showContact(this)">Learn More</button>
+      <div class="learn-contact">
+        📞 <a href="tel:6380627730">6380627730</a><br>
+        ✉️ <a href="mailto:mrlogeshwaran38@gmail.com">
+        mrlogeshwaran38@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="course-card">
+      <h3>Tally</h3>
+      <p>Accounting & financial management skills.</p>
+      <button onclick="showContact(this)">Learn More</button>
+      <div class="learn-contact">
+        📞 <a href="tel:6380627730">6380627730</a><br>
+        ✉️ <a href="mailto:mrlogeshwaran38@gmail.com">
+        mrlogeshwaran38@gmail.com</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <p class="sub">Get In Touch</p>
+
+  <div class="contact-boxes">
+    <div class="contact-card">
+      📞 <strong>6380627730</strong>
+    </div>
+    <div class="contact-card">
+      ✉️ <strong>mrlogeshwaran38@gmail.com</strong>
+    </div>
+  </div>
+
+  <a href="tel:6380627730" class="btn">Contact Now</a>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <img src="logo.jpg">
+  <p>© 2025 Digital Learning Hub</p>
+</footer>
+
+<script>
+function showContact(btn){
+  btn.style.display="none";
+  btn.nextElementSibling.style.display="block";
+}
+</script>
+
+</body>
+</html>
